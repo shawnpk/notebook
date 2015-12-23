@@ -44,12 +44,17 @@
 		margin-top: 3rem;
 		a.button {
 			padding: .5rem 2rem;
-			border-radius: 2rem;
+			border-radius: .25rem;
 			text-decoration: none;
 			color: $green;
-			border: 5px solid #E9E9E9;
+			border: 1px solid #E9E9E9;
 			@include bold_font;
 			background: transparent;
+			&:hover {
+				background-color: black;
+				color: white;
+				border: 1px solid black;
+			}
 		}
 	}
 }
