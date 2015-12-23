@@ -77,6 +77,9 @@ header {
 			display: inline-block;
 			width: 10rem;
 			float: left;
+			&:hover {
+				color: white;
+			}
 		}
 		nav {
 			float: right;
